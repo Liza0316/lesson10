@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+ body{
+    padding-left: 150px;
+    padding-right: 100px;
+    font-family: Poppins;
+    font-weight: 500;
+    background: url(../imgs/Decore.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+
+ }
+
+ ul{
+    list-style: none;
+    
+ }
+
+ a{
+    text-decoration: none;
+    color:  #212832;
+ }
+
+ button{
+    cursor: pointer;
+ }
+
+ /* header block */
+ .head{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .header-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+font-size: 17px;
+font-weight: 400;
+
+ }
+
+ .material-symbols-outlined{
+    font-size: 14px;
+    color: #212832;
+ }
+
+ .header-button{
+min-width: 102px;
+background: none;
+border-radius: 5px;
+border: 1px solid  #212832;
+padding: 9px 0;
+ }
+ /* end header */
+
+ /* tittle block */
+ .tittle{
+    margin-top: 61px;
+    background: url(../imgs/plane.svg);
+    background-repeat: no-repeat;
+    background-position-x: 537px;
+    background-position-y: 2px ;
+
+ }
+.tittle-figura{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tittle-item{
+    margin-top: 12px;
+}
+
+ .tittle-p{
+    color: #DF6951;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+ }
+ 
+ h1{
+    color: #181E4B;
+font-family: Volkhov;
+font-size: 84px;
+font-weight: 700;
+line-height: 89px;
+letter-spacing: -3.36px;
+margin-bottom: 30px;
+ }
+
+ .tittle-p-built{
+    color: #5E6282;
+font-size: 16px;
+line-height: 30px; 
+ }
+
+ .tittle-button{
+    min-width: 170px;
+    padding: 18px 0;
+    margin-right: 44px;
+    color: white;
+    background-color: #F1A501;
+    border: 1px solid #F1A501;
+    border-radius: 10px;
+    box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+font-size: 18px;
+}
+
+ .tittle-traveller{
+    margin: 0 auto;
+    position: absolute;
+    right: 101px;
+    top: 84px;
+ }
+
+ .tittle-plane{
+  padding: 0 0;
+  margin-bottom: 341px;
+  margin-right: -23px;
+ }
+
